@@ -15,13 +15,7 @@ function main() {
 	});
 	// TODO: Animate YES/NO Buttons.
 	msg.innerText += 'Are you sure? You want to close this tab.\n\n';
-	msg.innerHTML += '<button id="yes">YES</button>';
-	msg.innerText += "\t";
-	msg.innerHTML += '<button id="no">NO</button>';
-	chrome.tabs.query({ active: true }, function(tabs) {  
-		console.log(tabs);
-		msg.innerText += `\n\n${tabs[0].id}`;
-	})
+	msg.innerHTML += '<span style="font-weight: bold;">[Y]ES</span>\t<span style="color: red;">[N]0</span>';
 }
 
 document.addEventListener('DOMContentLoaded', main);
