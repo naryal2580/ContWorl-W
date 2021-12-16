@@ -15,7 +15,7 @@ function main() {
 	});
 	// TODO: Animate YES/NO Buttons.
 	msg.innerText += 'Are you sure? You want to close this tab.\n\n';
-	msg.innerHTML += '<span style="font-weight: bold;">[Y]ES</span>\t<span style="color: red;">[N]0</span>';
+	msg.innerHTML += '<span style="font-weight: bold;">[Y]35</span>\t<span style="color: red;">[N]0</span>';
 }
 
 document.addEventListener('DOMContentLoaded', main);
