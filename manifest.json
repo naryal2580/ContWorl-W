@@ -1,0 +1,27 @@
+{
+  "name": "ContWorl!",
+  "description": "Helpful extension for Browser based terminal.",
+  "version": "0.01",
+  "manifest_version": 2,
+  "icons": {
+  	"640": "./icons/avatar.png"
+  },
+  "background": {
+    "scripts": [
+    	"browser-polyfill.min.js"
+    ]
+  },
+  "permissions": ["tabs", "<all_urls>"],
+  "browser_action": {
+    "default_popup": "./popup/index.html"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+W"
+      },
+      "description": "Handle Ctrl+W for the web shell, if the tab really needs to be closed."
+    }
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
