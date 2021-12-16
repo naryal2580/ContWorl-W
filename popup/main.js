@@ -4,7 +4,7 @@ function main() {
 	let msg = document.querySelector('#msg');
 	document.addEventListener('keydown', (event) => {
 		if ( event.key.toLowerCase() === 'y' ) {
-			chrome.tabs.query({active: true}, (tabs) => {
+			chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
 				chrome.tabs.remove(tabs[0].id);
 			})
 		} else if ( event.key.toLowerCase() === 'n' ) {
