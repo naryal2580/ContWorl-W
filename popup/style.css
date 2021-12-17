@@ -1,6 +1,6 @@
 body {
-  min-width: 600px;
-  min-height: 300px;
+  min-width: 400px;
+  min-height: 200px;
   background-color: #000;
 }
 
@@ -12,4 +12,11 @@ body {
   font-family: monospace;
   align-content: center;
   text-align: center;
+}
+
+#key {
+  font-family: monospace;
+  font-weight: bold;
+  color: #FFF;
+  text-align: right;
 }
