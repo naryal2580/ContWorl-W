@@ -9,5 +9,6 @@ A simple chrome extension for handle <code><code><code>CTRL</code><code>+</code>
  - Open: http://chrome//extensions
  - Enable Developer Mode
 ![image](https://user-images.githubusercontent.com/34544253/146425917-fc4e30ab-cee5-4746-b2ec-e7ea54b62083.png)
- - Click on Lead Unpacked (just like within the picture above)
+ - Click on Load Unpacked (just like within the picture above)
  - Select the folder with the cloned repo.
+ - Try pressing <code><code><code>CTRL</code><code>+</code><code>W</code></code></code>
