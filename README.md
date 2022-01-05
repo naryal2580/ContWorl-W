@@ -11,4 +11,4 @@ A simple chrome extension for handle <code><code><code>CTRL</code><code>+</code>
 ![image](https://user-images.githubusercontent.com/34544253/146425917-fc4e30ab-cee5-4746-b2ec-e7ea54b62083.png)
  - Click on Load Unpacked (just like within the picture above)
  - Select the folder with the cloned repo.
- - Try pressing <code><code><code>CTRL</code><code>+</code><code>W</code></code></code>
+ - Try pressing <code><code><code>CTRL</code><code>+</code><code>W</code></code></code> ⚠️ You might need to manually set hot key for the extension. ⚠️
